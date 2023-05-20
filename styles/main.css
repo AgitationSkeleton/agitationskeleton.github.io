@@ -1,0 +1,355 @@
+@font-face {
+	font-family:'Inconsolata';
+	src:url(../fonts/Inconsolata.woff2) format('woff2');
+}
+
+@font-face {
+	font-family:'Segoe';
+	src:url(../fonts/Segoe.woff2) format('woff2');
+}
+
+html {
+	height:100%;
+	background:#000;
+	color:#000000;
+	font-family:"Inconsolata", sans-serif;
+	min-height:600px;
+}
+
+body {
+    margin:0px;
+	height:100%;
+}
+
+#bodyInner {
+	display:flex;
+	flex-direction:column;
+	height:100%;
+}
+
+@media (min-width: 1500px) {
+	.gameMode #bodyInner {
+		transform:scale(2) !important;
+		transform-origin:0 0 !important;
+		width:50% !important;
+		height:50% !important;
+	}
+}
+
+h1, h2, h3, h4, h5 {
+	margin:0px;
+}
+
+a {
+	text-decoration:none;
+	color:#0094FF;
+}
+
+a:hover {
+	text-decoration:underline;
+	color:#47B2FF;
+}
+
+a:active, a:visited:active {
+	color:#FF4F4F !important;
+}
+
+a:visited {
+	color:#C14FFF;
+}
+
+a:visited:hover {
+	color:#D187FF;
+}
+
+.gameMode .externalLink, .gameMode #footerInner a {
+	pointer-events:none !important;
+	color:#FFFFFF !important;
+}
+
+b {
+	text-decoration:underline;
+}
+
+b, #navInner a, .contentHeader, .connect {
+	font-weight:700;
+}
+
+@media (max-width: 850px) {
+	b, #navInner a, .contentHeader, .connect {
+		font-weight:550 !important;
+	}
+}
+
+br {
+	margin-bottom:5px;
+}
+
+.show {
+	display:inline-block !important;
+}
+
+#header {
+	height:141px;
+	position:relative;
+}
+
+#headerBackground {
+	background:url("../images/fire.gif");
+	background-position:0px -20px;
+	width:100%;
+	height:100px;
+	opacity:0.5;
+	filter:hue-rotate(-15deg);
+}
+
+#title {
+	margin:10px;
+	display:inline-block;
+	position:absolute;
+	bottom:41px;
+	z-index:1;
+}
+
+#title:hover {
+	filter:brightness(2);
+}
+
+#gameLogo {
+	display:inline-block;
+	position:absolute;
+	right:20px;
+	bottom:41px;
+	opacity:0.9;
+}
+
+#headerDivider {
+	width:100%;
+	height:40px;
+	background:linear-gradient(to bottom, #969696 0%, #6B6B6B 47%, #585858 53%, #3F3F3F 100%);
+	border-bottom:1px #2F2F2F solid;
+	text-shadow:1px 1px 2px rgba(0,0,0,0.75);
+	font-size:30px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+#headerNav {
+	cursor:pointer;
+	display:none;
+	user-select:none;
+}
+
+@media (max-width: 850px) {
+	#headerNav {
+		display:inline-block; !important;
+	}
+}
+
+#page {
+	display:flex;
+	flex-grow:1;
+}
+
+@media (max-width: 850px) {
+	#page {
+		flex-direction:column !important;
+	}
+}
+
+#nav {
+	padding:10px 20px;
+	font-size:30px;
+	min-width:160px;
+	text-shadow:1px 1px 2px rgba(0,0,0,0.75);
+	background:#757575;
+	box-shadow:inset 4px 4px 10px #4C4C4C, inset -4px -4px 10px #BABABA;
+}
+
+@media (max-width: 850px) {
+	#nav {
+		min-width:unset !important;
+		width:calc(100% - 40px) !important;
+		display:none;
+	}
+}
+
+#navInner {
+	display:flex;
+	flex-direction:column;
+}
+
+#navInner a {
+	color:#000000;
+	margin:3px;
+}
+
+.gameMode #navInner a {
+	display:none;
+}
+
+.gameMode #navInner a.siteLink {
+	display:inline-block !important;
+}
+
+#content {
+	font-size:25px;
+	text-shadow:1px 1px 2px rgba(0,0,0,0.75);
+	width:100%;
+	height:100%;
+	background:#000000;
+}
+
+#contentInner {
+	padding:5px;
+	height:calc(100% - 52px);
+	background:linear-gradient(to bottom, #3F3F3F 0%, #000000 50%, #000000 100%);
+	box-shadow:inset 4px -4px 10px #141414, inset -4px -4px 10px #484848;
+}
+
+@media (max-width: 850px) {
+	#contentInner {
+		padding-bottom:75px !important;
+		height:calc(100% - 122px) !important;
+	}
+}
+
+#contentText {
+	font-family:"Segoe", sans-serif;
+	margin:0px 4px;
+	color:#FFFFFF;
+}
+
+.contentHeader {
+	background:linear-gradient(to bottom, #B2B0AE 0%, #93908D 47%, #84817E 53%, #6E6B69 100%);
+	padding:5px;
+	text-shadow:1px 1px 2px rgba(0,0,0,0.75);
+	border-bottom:1px #565453 solid;
+	font-size:30px;
+	box-shadow:inset 4px -4px 10px #434343;
+}
+
+@media (max-width: 850px) {
+	.contentHeader {
+		box-shadow:unset !important;
+	}
+}
+
+#footer {
+	display:flex;
+}
+
+#footerInner {
+	padding:10px;
+	font-size:20px;
+	width:100%;
+	max-height:40px;
+	text-align:center;
+	text-shadow:1px 1px 2px rgba(0,0,0,0.75);
+	background:linear-gradient(to bottom, #969696 0%, #6B6B6B 47%, #585858 53%, #3F3F3F 100%);
+	border-top:1px #3F3F3F solid;
+}
+
+#boba {
+	vertical-align:text-top;
+	filter:drop-shadow(1px 1px 2px rgba(0,0,0,0.75));
+}
+
+#boba:hover {
+	filter:drop-shadow(1px 1px 2px rgba(0,0,0,0.75)) brightness(1.25);
+}
+
+#yoda {
+	position:fixed;
+	bottom:20px;
+	right:20px;
+	display:flex;
+	flex-direction:column;
+	z-index:5;
+}
+
+@media (min-width: 1500px) {
+	.gameMode #yoda {
+		transform:scale(2) !important;
+		transform-origin:100% 100% !important;
+		bottom:40px !important;
+		right:40px !important;
+	}
+}
+
+#yodaImage {
+	cursor:pointer;
+	margin-left:auto;
+	filter:drop-shadow(1px 1px 2px rgba(0,0,0,0.75));
+	animation:yodaFloat 1s infinite alternate;
+	animation-timing-function:ease-in-out;
+}
+
+@media (max-width: 850px) {
+	#yodaImage {
+		width:75px !important;
+	}
+}
+
+@keyframes yodaFloat {
+	0% {
+		transform: translate(0px, 0px);
+	}
+	100% {
+		transform: translate(0px, 5px);
+	}
+}
+
+#yodaText {
+	padding:10px;
+	margin-left:auto;
+	background:#FFFFFF;
+	display:none;
+	margin-bottom:10px;
+	border-radius:10px;
+	font-size:20px;
+	max-width:200px;
+	animation:yodaFloat 1.2s infinite alternate;
+	animation-timing-function:ease-in-out;
+	cursor:pointer;
+}
+
+.serverLinkContainer {
+	display:flex;
+	justify-content:center;
+}
+
+.serverLink, .serverLink:visited {
+	color:#FFFFFF;
+	text-decoration:underline;
+	display:inline-block;
+	text-align:center;
+	margin-bottom:10px;
+}
+
+.serverClump {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+
+.server {
+	display:inline-block;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+
+.connect {
+	width:150px;
+	background:linear-gradient(to bottom, #B2B0AE 0%, #93908D 47%, #84817E 53%, #6E6B69 100%);
+	padding:5px;
+	text-shadow:1px 1px 2px rgba(0,0,0,0.75);
+	font-size:30px;
+	display:inline-block;
+	text-align:center;
+	font-family:"Inconsolata", sans-serif;
+	border-radius:5px;
+	color:#FFFFFF;
+	box-shadow:inset 4px -4px 10px #434343;
+}
