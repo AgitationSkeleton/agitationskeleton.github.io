@@ -14,6 +14,7 @@ html {
 	color:#000000;
 	font-family:"Inconsolata", sans-serif;
 	min-height:600px;
+	overflow-x:hidden;
 }
 
 body {
@@ -95,7 +96,7 @@ br {
 }
 
 #headerBackground {
-	background:url("../images/fire.gif");
+	background-image:url("../images/fire.gif");
 	background-position:0px -20px;
 	width:100%;
 	height:100px;
@@ -269,6 +270,15 @@ br {
 	z-index:5;
 }
 
+@keyframes yodaGlow {
+	0% {
+		filter:drop-shadow(0px 0px 10px rgba(255, 20, 20, 0));
+	}
+	100% {
+		filter:drop-shadow(0px 0px 10px rgba(255, 20, 20, 1)) drop-shadow(0px 0px 3px rgba(255, 20, 20, 1));
+	}
+}
+
 @media (min-width: 1500px) {
 	.gameMode #yoda {
 		transform:scale(2) !important;
@@ -298,6 +308,42 @@ br {
 	}
 	100% {
 		transform: translate(0px, 5px);
+	}
+}
+
+@keyframes yodaShake {
+	0% {
+		transform: translate(1px, 1px);
+	}
+	10% {
+		transform: translate(-1px, -1px);
+	}
+	20% {
+		transform: translate(-1px, 0px);
+	}
+	30% {
+		transform: translate(1px, 1px);
+	}
+	40% {
+		transform: translate(1px, -1px);
+	}
+	50% {
+		transform: translate(-1px, 1px);
+	}
+	60% {
+		transform: translate(-1px, 1px);
+	}
+	70% {
+		transform: translate(1px, 1px);
+	}
+	80% {
+		transform: translate(-1px, -1px);
+	}
+	90% {
+		transform: translate(1px, 1px);
+	}
+	100% {
+		transform: translate(1px, -1px);
 	}
 }
 
@@ -352,4 +398,60 @@ br {
 	border-radius:5px;
 	color:#FFFFFF;
 	box-shadow:inset 4px -4px 10px #434343;
+}
+
+/* creepypasta */
+
+.creepypastaGlow {
+	animation:yodaGlow 1s infinite alternate;
+}
+
+.creepypastaShaker {
+	animation:yodaShake 0.5s infinite alternate !important;
+}
+
+.creepypastaGlitch {
+	filter:grayscale(75%) !important;
+	animation:glitch 1s linear infinite;
+}
+
+@keyframes glitch {
+	0%,9%,13%,49%,51%,69%,72% {
+		transform:translate(0px,0px) skew(0deg);
+	}
+	10% {
+		transform:translate(20px,0px) skew(20deg); 
+	}
+	50% {
+		transform:translate(6px,-9px) skew(1deg); 
+	}
+	70% {
+		transform:translate(-10px,0) skew(-100deg); 
+	}
+}
+
+.creepypastaHeader {
+	background-image:url("../images/creepypasta/ben.jpg") !important;
+	animation:slide 0.1s linear infinite;
+}
+
+@keyframes slide {
+	0%{
+		background-position:0px 0px;
+	}
+	100%{
+		background-position:134px 0px;
+	}
+}
+
+.creepypastaBackground {
+	background-image:url("../images/funny/schizoeyes.gif") !important;
+	animation:slide 1s linear reverse infinite;
+	background-size:100px !important;
+	opacity:0.5 !important;
+}
+
+.creepypastaLogo {
+	filter:grayscale(50%) !important;
+	opacity:0.7 !important;
 }
