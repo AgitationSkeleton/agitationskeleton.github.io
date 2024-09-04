@@ -87,8 +87,7 @@ const serverList = [
 		"name": "REDchanit.xyz | TF2C 2FORT 24/7 (Vanilla)",
 		"ip": "97.94.129.234:27979",
 		"game": "hl2dm",
-		"overrideGame": "tf2classic",
-		"motd": "tf2c_motd"
+		"overrideGame": "tf2classic"
 	},
 	{
 		"id": "tf2classic2007",
