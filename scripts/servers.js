@@ -251,12 +251,12 @@ function createServerElement(server) {
 	// REDCHANIT: hide server info button if motd doesn't exist
 	serverElement.innerHTML = `
 			<div class="serverTitle">
-				<img class="serverStatus" src="${RESOURCES_URL}/status/offline.png" alt="Server Status" draggable="false">
+				<img class="serverStatus" src="${RESOURCES_URL}/status/offline.png" alt="status" draggable="false">
 				<img class="serverGame" src="${RESOURCES_URL}/games/${serverGame}.png" alt="${serverGame}" onerror="this.onerror=null; this.src='${RESOURCES_URL}/games/unknown.png';" draggable="false">
 				<div>${name}</div>
 			</div>
 			<div class="serverContent">
-				<img class="serverMap asyncImage" src="${RESOURCES_URL}/maps/unknown.png" alt="Server Map" draggable="false">
+				<img class="serverMap asyncImage" src="${RESOURCES_URL}/maps/unknown.png" alt="map" draggable="false">
 				<div class="serverMapName"><b>Map:</b> ---</div>
 				<div class="serverPlayers"><b>Players:</b> ---</div>
 			</div>
