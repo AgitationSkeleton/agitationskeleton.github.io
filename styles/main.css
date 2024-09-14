@@ -46,12 +46,12 @@ a {
 	color:#0094FF;
 }
 
-a:hover {
+a[href]:hover, a[onclick]:hover {
 	text-decoration:underline;
 	color:#47B2FF;
 }
 
-a:active, a:visited:active {
+a[href]:active, a[onclick]:active, a:visited:active {
 	color:#FF4F4F !important;
 }
 
@@ -465,6 +465,11 @@ br {
 	box-sizing: border-box;
 }
 
+.offline.server {
+	background:#3D3D3D;
+	box-shadow:inset 4px 4px 10px #262626, inset -4px -4px 10px #707070;
+}
+
 .server *, .serverSmall * {
 	box-sizing: border-box;
 }
@@ -504,6 +509,10 @@ br {
 	margin-right:10px;
 }
 
+.offline .serverGame {
+	filter:saturate(0);
+}
+
 .serverContent {
 	margin-top:8px;
 	position:relative;
@@ -525,6 +534,10 @@ br {
 	.serverMap {
 		width:100%;
 	}
+}
+
+.offline .serverMap {
+	filter:saturate(0);
 }
 
 .gameMode .serverMap {
@@ -593,6 +606,11 @@ br {
 	margin-right:0px !important;
 }
 
+.offline .serverButton {
+	background:linear-gradient(to bottom, #6A6A6A 0%, #565656 47%, #4D4D4D 53%, #404040 100%);
+	box-shadow:inset 4px -4px 10px #282828;
+}
+
 .serverConnect {
 	width: 100%;
 	cursor:pointer;
@@ -636,7 +654,7 @@ br {
 	background-size:24px;
 }
 
-a.serverButton:hover {
+a.serverButton[href]:hover, a.serverButton[onclick]:hover {
 	text-shadow:0px 0px 5px currentColor;
 }
 
@@ -644,7 +662,7 @@ a.serverButton:hover .info, a.serverButton:hover .dynmap {
 	filter:drop-shadow(0px 0px 3px currentColor);
 }
 
-a.serverButton:active {
+a.serverButton[href]:active, a.serverButton[onclick]:active {
 	filter:brightness(0.85);
 }
 

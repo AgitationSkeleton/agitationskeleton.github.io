@@ -198,7 +198,7 @@ const serverList = [
 		name: "REDchanit.xyz | Halo CE | Classic Slayer Pro",
 		ip: "97.94.129.234:2103",
 		game: "halo",
-	}
+	},
 ];
 
 // list of Steam games, for direct connection
@@ -279,9 +279,17 @@ function fetchServerData(server, serverElement) {
 // display server data once fetched
 function updateServerElement(data, server, serverElement) {
 	const { overrideMap, dynmap } = server;
-	// REDCHANIT: regex for quake3
-	const serverMap = overrideMap || data.currentMap.replace(/^(?<=)game\/mp\/*/, "");
 	const canConnect = steamGames.includes(server.overrideGame || server.game);
+
+	// check if server is offline/has an error
+	if (data.error) {
+		serverElement.classList.add("offline");
+
+		serverElement.querySelector(".serverMapName").innerHTML = "<b>Offline!</b>";
+		serverElement.querySelector(".serverPlayers").innerHTML = "";
+
+		return;
+	}
 
 	// set updated server info
 	// server returned data, so it's online
@@ -289,6 +297,8 @@ function updateServerElement(data, server, serverElement) {
 		`${RESOURCES_URL}/status/online.png`;
 
 	// update map image
+	// REDCHANIT: regex for quake3
+	const serverMap = overrideMap || data.currentMap.replace(/^(?<=)game\/mp\/*/, "");
 	const mapImage = serverElement.querySelector(".serverMap");
 	mapImage.dataset.src = `${RESOURCES_URL}/maps/${server.overrideGame || server.game}/${serverMap}.png`;
 	loadMapImage(mapImage);
