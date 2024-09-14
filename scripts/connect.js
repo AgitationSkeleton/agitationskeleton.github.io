@@ -8,8 +8,8 @@ const regex = /^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-
 document.addEventListener('DOMContentLoaded', (event) => {
 	if (regex.test(ip)) {
 		window.location.replace("steam://connect/"+ip);
-		window.location.replace("https://matchaland.net/servers");
+		window.location.replace("https://redchanit.xyz/servers");
 	} else {
-		window.location.replace("https://matchaland.net/404");
+		window.location.replace("https://redchanit.xyz/404");
 	}
 });
