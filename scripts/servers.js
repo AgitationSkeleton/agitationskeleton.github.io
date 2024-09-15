@@ -4,47 +4,47 @@ const serverList = [
 	{
 		id: "tf2CustomMaps",
 		name: "REDchanit.xyz | TF2 Custom Maps",
-		ip: "97.94.129.234:25565",
+		ip: "play.redchanit.xyz:25565",
 		game: "tf2",
 		motd: "memefort",
 	},
 	{
 		id: "tf2SoapDM",
 		name: "REDchanit.xyz | TF2 SoapDM",
-		ip: "97.94.129.234:27335",
+		ip: "play.redchanit.xyz:27335",
 		game: "tf2",
 		motd: "memefort_soapdm",
 	},
 	{
 		id: "tf2Vscript",
 		name: "REDchanit.xyz | TF2 Vscript Maps",
-		ip: "97.94.129.234:51840",
+		ip: "play.redchanit.xyz:51840",
 		game: "tf2",
 		motd: "memefort_vscript",
 	},
 	{
 		id: "tf2SecretBase",
 		name: "REDchanit.xyz | TF2 The Secret Base",
-		ip: "97.94.129.234:27005",
+		ip: "play.redchanit.xyz:27005",
 		game: "tf2",
 	},
 	{
 		id: "tf2Vanilla",
 		name: "REDchanit.xyz | TF2 Vanilla",
-		ip: "97.94.129.234:27664",
+		ip: "play.redchanit.xyz:27664",
 		game: "tf2",
 	},
 	{
 		id: "tf2VanillaNoSniper",
 		name: "REDchanit.xyz | TF2 Vanilla But Sniper Is Banned",
-		ip: "97.94.129.234:27663",
+		ip: "play.redchanit.xyz:27663",
 		game: "tf2",
 	},
 	// of
 	{
 		id: "openFortressDM",
 		name: "REDchanit.xyz | Open Fortress DM",
-		ip: "97.94.129.234:27015",
+		ip: "play.redchanit.xyz:27015",
 		game: "hl2dm",
 		overrideGame: "of",
 		motd: "dagobah",
@@ -52,7 +52,7 @@ const serverList = [
 	{
 		id: "openFortressTDM",
 		name: "REDchanit.xyz | Open Fortress Team DM",
-		ip: "97.94.129.234:34560",
+		ip: "play.redchanit.xyz:34560",
 		game: "hl2dm",
 		overrideGame: "of",
 		motd: "dagobah",
@@ -60,7 +60,7 @@ const serverList = [
 	{
 		id: "openFortressAllClassDM",
 		name: "REDchanit.xyz | OF All-Class DM",
-		ip: "97.94.129.234:27665",
+		ip: "play.redchanit.xyz:27665",
 		game: "hl2dm",
 		overrideGame: "of",
 		motd: "dagobah",
@@ -68,7 +68,7 @@ const serverList = [
 	{
 		id: "openFortressZombie",
 		name: "REDchanit.xyz | OF Zombie Infection + Arsenal",
-		ip: "97.94.129.234:27666",
+		ip: "play.redchanit.xyz:27666",
 		game: "hl2dm",
 		overrideGame: "of",
 		motd: "dagobah",
@@ -77,7 +77,7 @@ const serverList = [
 	{
 		id: "tf2classicCustomWeapons",
 		name: "REDchanit.xyz | TF2C (Custom Weapons)",
-		ip: "97.94.129.234:27020",
+		ip: "play.redchanit.xyz:27020",
 		game: "hl2dm",
 		overrideGame: "tf2classic",
 		motd: "tf2c_motd",
@@ -85,14 +85,14 @@ const serverList = [
 	{
 		id: "tf2classic2fort",
 		name: "REDchanit.xyz | TF2C 2FORT 24/7 (Vanilla)",
-		ip: "97.94.129.234:27979",
+		ip: "play.redchanit.xyz:27979",
 		game: "hl2dm",
 		overrideGame: "tf2classic",
 	},
 	{
 		id: "tf2classic2007",
 		name: "REDchanit.xyz | TF2C 2007 Simulator",
-		ip: "97.94.129.234:27980",
+		ip: "play.redchanit.xyz:27980",
 		game: "hl2dm",
 		overrideGame: "tf2classic",
 		motd: "xperience",
@@ -101,7 +101,7 @@ const serverList = [
 	{
 		id: "pf2",
 		name: "REDchanit.xyz | Pre-Fortress 2",
-		ip: "97.94.129.234:26335",
+		ip: "play.redchanit.xyz:26335",
 		game: "hl2dm",
 		overrideGame: "pf2",
 	},
@@ -109,7 +109,7 @@ const serverList = [
 	{
 		id: "tfport",
 		name: "REDchanit.xyz | TF_Port 2007",
-		ip: "97.94.129.234:27974",
+		ip: "play.redchanit.xyz:27974",
 		game: "tf2",
 		overrideGame: "tfport",
 	},
@@ -117,7 +117,7 @@ const serverList = [
 	{
 		id: "goonsquad",
 		name: "REDchanit.xyz | Goonsquad Dev",
-		ip: "97.94.129.234:23555",
+		ip: "play.redchanit.xyz:23555",
 		game: "hl2dm",
 		overrideGame: "goonsquad",
 	},
@@ -125,42 +125,42 @@ const serverList = [
 	{
 		id: "tfcFoldyBasement",
 		name: "REDchanit.xyz | TFC - Old Foldy's Basement",
-		ip: "97.94.129.234:34531",
+		ip: "play.redchanit.xyz:34531",
 		game: "tfc",
 	},
 	// hldm
 	{
 		id: "hldmFoldyPlayhouse",
 		name: "REDchanit.xyz | HLDM - Old Foldy's Playhouse",
-		ip: "97.94.129.234:27970",
+		ip: "play.redchanit.xyz:27970",
 		game: "hldm",
 	},
 	// dmc
 	{
 		id: "dmcFoldyDungeon",
 		name: "REDchanit.xyz | DMC - Old Foldy's Dungeon",
-		ip: "97.94.129.234:27971",
+		ip: "play.redchanit.xyz:27971",
 		game: "dmc",
 	},
 	// svencoop
 	{
 		id: "svencoop",
 		name: "REDchanit.xyz | Sven Co-op",
-		ip: "97.94.129.234:27972",
+		ip: "play.redchanit.xyz:27972",
 		game: "svencoop",
 	},
 	// quake
 	{
 		id: "quakeVanilla",
 		name: "REDchanit.xyz | QuakeWorld (Vanilla)",
-		ip: "97.94.129.234:27961",
+		ip: "play.redchanit.xyz:27961",
 		game: "quake1",
 		overrideMap: "quakeworld",
 	},
 	{
 		id: "quakeTeamFortress",
 		name: "REDchanit.xyz | QuakeWorld Team Fortress (FortressOne)",
-		ip: "97.94.129.234:27962",
+		ip: "play.redchanit.xyz:27962",
 		game: "quake1",
 		overrideMap: "quaketf",
 	},
@@ -168,35 +168,35 @@ const serverList = [
 	{
 		id: "quake3",
 		name: "REDchanit.xyz | Quake 3 Vanilla Unlagged",
-		ip: "97.94.129.234:27963",
+		ip: "play.redchanit.xyz:27963",
 		game: "quake3",
 	},
 	// quakelive
 	{
 		id: "quakelive",
 		name: "REDchanit.xyz | Quake Live",
-		ip: "97.94.129.234:27964",
+		ip: "play.redchanit.xyz:27964",
 		game: "quakelive",
 	},
 	// doom3
 	{
 		id: "doom3",
 		name: "REDchanit.xyz | Doom 3",
-		ip: "97.94.129.234:10669",
+		ip: "play.redchanit.xyz:10669",
 		game: "doom3",
 	},
 	// jk2
 	{
 		id: "jk2",
 		name: "REDchanit.xyz | JK2",
-		ip: "97.94.129.234:27973",
+		ip: "play.redchanit.xyz:27973",
 		game: "swjk",
 	},
 	// halo
 	{
 		id: "halo",
 		name: "REDchanit.xyz | Halo CE | Classic Slayer Pro",
-		ip: "97.94.129.234:2103",
+		ip: "play.redchanit.xyz:2103",
 		game: "halo",
 	},
 ];
@@ -207,7 +207,7 @@ const steamGames = ["tf2", "tf2classic", "of", "pf2", "tfport", "goonsquad", "tf
 // general variables
 const RESOURCES_URL = "https://resources.redchanit.xyz";
 const HOSTNAME = "play.redchanit.xyz";
-const API_BASE_URL = "https://api.raccoonlagoon.com/v1/server-info";
+const API_BASE_URL = "https://api.raccoonlagoon.com/v1/";
 
 // preload critical images
 function preloadImages(...urls) {
@@ -224,6 +224,27 @@ preloadImages(
 	`${RESOURCES_URL}/games/unknown.png`,
 	`${RESOURCES_URL}/maps/unknown.png`,
 );
+
+// fetch base IP
+var baseIP = HOSTNAME;
+function fetchBaseIP() {
+	const url = `${API_BASE_URL}resolve-dns?hostname=${HOSTNAME}`;
+	fetch(url)
+		.then((response) => response.json())
+		.then((data) => updateConnectLinks(data))
+		.catch((error) => console.error("Error fetching IP:", error));
+}
+
+// update base IP and any existing elements
+function updateConnectLinks(data) {
+	if (!data.error) {
+		baseIP = data.address;
+
+		document.querySelectorAll(".steam").forEach((connectElement) => {
+			connectElement.href = connectElement.href.replace(HOSTNAME, baseIP);
+		});
+	}
+}
 
 // main function to initialize the server list
 function initializeServerList() {
@@ -269,7 +290,7 @@ function createServerElement(server) {
 
 // fetch server data from api
 function fetchServerData(server, serverElement) {
-	const url = `${API_BASE_URL}?ip=${server.ip}&g=${server.game}`;
+	const url = `${API_BASE_URL}server-info?ip=${server.ip}&g=${server.game}`;
 	fetch(url)
 		.then((response) => response.json())
 		.then((data) => updateServerElement(data, server, serverElement))
@@ -322,7 +343,7 @@ function updateServerElement(data, server, serverElement) {
 	// servers that host a Steam game will replace the copy ip button with a connect button
 	// REDCHANIT: hide server info button if motd doesn't exist
 	const buttonsHtml = `
-			<a ${canConnect ? `href="steam://connect/${data.serverIP}"` : ""} class="serverButton serverConnect" ${!canConnect ? `onclick="navigator.clipboard.writeText('${data.serverIP.replace(/^[^:]*/, HOSTNAME)}');"` : ""} draggable="false">
+			<a ${canConnect ? `href="steam://connect/${baseIP+data.serverIP.replace(HOSTNAME, "")}"` : ""} class="serverButton serverConnect${canConnect ? ` steam` : ""}" ${!canConnect ? `onclick="navigator.clipboard.writeText('${data.serverIP}');"` : ""} draggable="false">
 				${canConnect ? "Connect" : "Copy IP"}
 			</a>
 			${dynmap ? `<a href="${dynmap}" class="serverButton serverDynmap" draggable="false"><div class="dynmap"></div></a>` : ""}
@@ -346,4 +367,7 @@ function loadMapImage(mapElement) {
 }
 
 // initialize on DOM load
-document.addEventListener("DOMContentLoaded", initializeServerList);
+document.addEventListener("DOMContentLoaded", (event) => {
+	fetchBaseIP();
+	initializeServerList();
+});
