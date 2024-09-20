@@ -113,6 +113,13 @@ const serverList = [
 		game: "tf2",
 		overrideGame: "tfport",
 	},
+	// css
+	{
+		id: "css",
+		name: "REDchanit.xyz | Counter-Strike: Source DM",
+		ip: "play.redchanit.xyz:22015",
+		game: "css",
+	},
 	// goonsquad
 	{
 		id: "goonsquad",
