@@ -120,6 +120,13 @@ const serverList = [
 		ip: "play.redchanit.xyz:22015",
 		game: "css",
 	},
+	// fortressforever
+	{
+		id: "fortressforever",
+		name: "REDchanit.xyz | Fortress Forever",
+		ip: "play.redchanit.xyz:23535",
+		game: "fortressforever",
+	},	
 	// goonsquad
 	{
 		id: "goonsquad",
@@ -209,7 +216,7 @@ const serverList = [
 ];
 
 // list of Steam games, for direct connection
-const steamGames = ["tf2", "tf2classic", "of", "pf2", "tfport", "css", "goonsquad", "tfc", "hldm", "dmc", "svencoop"];
+const steamGames = ["tf2", "tf2classic", "of", "pf2", "tfport", "css", "goonsquad", "tfc", "hldm", "dmc", "svencoop", "fortressforever"];
 
 // general variables
 const RESOURCES_URL = "https://resources.redchanit.xyz";
