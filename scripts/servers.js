@@ -213,10 +213,18 @@ const serverList = [
 		ip: "play.redchanit.xyz:2103",
 		game: "halo",
 	},
+	// mumble
+	{
+		id: "mumble",
+		name: "REDchanit.xyz | Murmur Bunker",
+		ip: "play.redchanit.xyz:64738",
+		game: "mumbleping",
+		overrideMap: "mumble",
+	}
 ];
 
 // list of Steam games, for direct connection
-const steamGames = ["tf2", "tf2classic", "of", "pf2", "tfport", "css", "goonsquad", "tfc", "hldm", "dmc", "svencoop", "fortressforever"];
+const steamGames = ["tf2", "tf2classic", "of", "pf2", "tfport", "css", "goonsquad", "tfc", "hldm", "dmc", "svencoop", "fortressforever", "mumbleping"];
 
 // general variables
 const RESOURCES_URL = "https://resources.redchanit.xyz";
