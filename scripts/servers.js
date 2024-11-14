@@ -215,7 +215,7 @@ const serverList = [
 	},
 	// ut
 	{
-		id: ut",
+		id: "ut",
 		name: "REDchanit.xyz | Unreal Tournament",
 		ip: "play.redchanit.xyz:7777",
 		game: "ut",
