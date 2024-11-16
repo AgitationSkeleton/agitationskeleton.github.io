@@ -127,13 +127,13 @@ const serverList = [
 		ip: "play.redchanit.xyz:23535",
 		game: "fortressforever",
 	},	
-	// goonsquad
+	// goonsquad + hl2dm
 	{
-		id: "goonsquad",
-		name: "REDchanit.xyz | Goonsquad Dev",
+		id: "hl2dm",
+		name: "REDchanit.xyz | Half-Life 2 Deathmatch",
 		ip: "play.redchanit.xyz:23555",
 		game: "hl2dm",
-		overrideGame: "goonsquad",
+		//overrideGame: "goonsquad",
 	},
 	// tfc
 	{
@@ -231,7 +231,7 @@ const serverList = [
 ];
 
 // list of Steam games, for direct connection
-const steamGames = ["tf2", "tf2classic", "of", "pf2", "tfport", "css", "goonsquad", "tfc", "hldm", "dmc", "svencoop", "fortressforever"];
+const steamGames = ["tf2", "tf2classic", "of", "pf2", "tfport", "css", "goonsquad", "tfc", "hldm", "hl2dm", "dmc", "svencoop", "fortressforever"];
 
 // general variables
 const RESOURCES_URL = "https://resources.redchanit.xyz";
