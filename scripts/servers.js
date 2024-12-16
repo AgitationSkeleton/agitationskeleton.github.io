@@ -231,7 +231,7 @@ const serverList = [
 ];
 
 // list of Steam games, for direct connection
-const steamGames = ["tf2", "tf2classic", "of", "pf2", "tfport", "css", "goonsquad", "tfc", "hldm", "hl2dm", "dmc", "svencoop", "fortressforever"];
+const steamGames = ["tf2", "tf2classic", "of", "pf2", "tfport", "css", "goonsquad", "tfc", "hldm", "hl2dm", "dmc", "svencoop", "fortressforever", "quakelive"];
 
 // general variables
 const RESOURCES_URL = "https://resources.redchanit.xyz";
