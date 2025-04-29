@@ -227,7 +227,7 @@ const serverList = [
 		ip: "play.redchanit.xyz:64738",
 		game: "mumbleping",
 		overrideMap: "mumble",
-	}
+	},
 	// minecraft
 	{
 		id: "minecraft",
