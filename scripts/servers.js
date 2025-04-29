@@ -228,6 +228,14 @@ const serverList = [
 		game: "mumbleping",
 		overrideMap: "mumble",
 	}
+	// minecraft
+	{
+		id: "minecraft",
+		name: "REDchanit.xyz | Minecraft 1.21.3",
+		ip: "play.redchanit.xyz:35565",
+		game: "minecraft",
+		overrideMap: "world",
+	}	
 ];
 
 // list of Steam games, for direct connection
