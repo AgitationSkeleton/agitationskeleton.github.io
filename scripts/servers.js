@@ -220,14 +220,6 @@ const serverList = [
 		ip: "play.redchanit.xyz:7778",
 		game: "ut",
 	},	
-	// mumble
-	{
-		id: "mumble",
-		name: "REDchanit.xyz | Murmur Bunker",
-		ip: "play.redchanit.xyz:64738",
-		game: "mumbleping",
-		overrideMap: "mumble",
-	},
 	// minecraft
 	{
 		id: "minecraft",
@@ -235,6 +227,14 @@ const serverList = [
 		ip: "play.redchanit.xyz:35565",
 		game: "minecraft",
 		overrideMap: "world",
+	},	
+	// mumble
+	{
+		id: "mumble",
+		name: "REDchanit.xyz | Murmur Bunker",
+		ip: "play.redchanit.xyz:64738",
+		game: "mumbleping",
+		overrideMap: "mumble",
 	}	
 ];
 
