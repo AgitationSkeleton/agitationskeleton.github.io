@@ -181,7 +181,7 @@ const serverList = [
 	// quake3
 	{
 		id: "quake3",
-		name: "REDchanit.xyz | Quake 3 Vanilla Unlagged",
+		name: "REDchanit.xyz | Quake 3 Unlagged",
 		ip: "play.redchanit.xyz:27963",
 		game: "quake3",
 	},
