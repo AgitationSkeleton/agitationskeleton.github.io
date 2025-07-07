@@ -36,7 +36,7 @@ const serverList = [
 	},
 	{
 		id: "tf2VanillaNoSniper",
-		name: "REDchanit.xyz | TF2 Vanilla But Sniper Is Banned",
+		name: "REDchanit.xyz | TF2 Trade Minecraft",
 		ip: "play.redchanit.xyz:27663",
 		game: "tf2",
 	},
