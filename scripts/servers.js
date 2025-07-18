@@ -142,6 +142,7 @@ const serverList = [
 		ip: "play.redchanit.xyz:15565",
 		game: "hl2dm",
 		overrideGame: "portalcoop",
+		overrideMap: "portalcoop",
 	},
 	// tfc
 	{
