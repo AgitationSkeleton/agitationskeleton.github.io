@@ -134,6 +134,14 @@ const serverList = [
 		ip: "play.redchanit.xyz:23555",
 		game: "hl2dm",
 		//overrideGame: "goonsquad",
+	},	
+	// portalcoop
+	{
+		id: "portalcoop",
+		name: "REDchanit.xyz | Portal 1 Cooperative",
+		ip: "play.redchanit.xyz:15565",
+		game: "hl2dm",
+		overrideGame: "portalcoop",
 	},
 	// tfc
 	{
@@ -239,7 +247,7 @@ const serverList = [
 ];
 
 // list of Steam games, for direct connection
-const steamGames = ["tf2", "tf2classic", "of", "pf2", "tfport", "css", "goonsquad", "tfc", "hldm", "hl2dm", "dmc", "svencoop", "fortressforever", "quakelive"];
+const steamGames = ["tf2", "tf2classic", "of", "pf2", "tfport", "css", "goonsquad", "tfc", "hldm", "hl2dm", "dmc", "svencoop", "fortressforever", "quakelive", "portalcoop"];
 
 // general variables
 const RESOURCES_URL = "https://resources.redchanit.xyz";
