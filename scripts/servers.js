@@ -241,7 +241,8 @@ const serverList = [
 	{
 		id: "aosc",
 		name: "REDchanit.xyz | Ace of Spades Classic",
-		ip: "play.redchanit.xyz:32887",
+		//ip: "play.redchanit.xyz:32887",
+		ip: "play.redchanit.xyz:32886",
 		game: "aosc",
 	},		
 	// mumble
