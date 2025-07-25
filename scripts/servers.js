@@ -236,7 +236,14 @@ const serverList = [
 		ip: "play.redchanit.xyz:35565",
 		game: "minecraft",
 		overrideMap: "world",
-	},	
+	},
+	// ace of spades
+	{
+		id: "aosc",
+		name: "REDchanit.xyz | Ace of Spades Classic",
+		ip: "play.redchanit.xyz:32887",
+		game: "aosc",
+	},		
 	// mumble
 	{
 		id: "mumble",
