@@ -238,13 +238,13 @@ const serverList = [
 		overrideMap: "world",
 	},
 	// ace of spades
-	//{
-		//id: "aosc",
-		//name: "REDchanit.xyz | Ace of Spades Classic",
-		////ip: "play.redchanit.xyz:32887",
-		//ip: "play.redchanit.xyz:32886",
-		//game: "aosc",
-	//},		
+	{
+		id: "buildandshoot",
+		name: "REDchanit.xyz | Ace of Spades Classic",
+		//ip: "play.redchanit.xyz:32887",
+		ip: "play.redchanit.xyz:32886",
+		game: "buildandshoot",
+	},		
 	// mumble
 	{
 		id: "mumble",
