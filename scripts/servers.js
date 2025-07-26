@@ -244,7 +244,7 @@ const serverList = [
 		//ip: "play.redchanit.xyz:32887",
 		ip: "play.redchanit.xyz:32886",
 		game: "buildandshoot",
-		overrideMap: "classicgen",
+		overrideMap: "aceofspades",
 	},		
 	// mumble
 	{
