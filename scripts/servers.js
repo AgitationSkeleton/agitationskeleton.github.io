@@ -165,6 +165,13 @@ const serverList = [
 		ip: "play.redchanit.xyz:27971",
 		game: "dmc",
 	},
+	// ricochet
+	{
+		id: "ricochet",
+		name: "REDchanit.xyz | Ricochet",
+		ip: "play.redchanit.xyz:21565",
+		game: "ricochet",
+	},	
 	// svencoop
 	{
 		id: "svencoop",
@@ -257,7 +264,7 @@ const serverList = [
 ];
 
 // list of Steam games, for direct connection
-const steamGames = ["tf2", "tf2classic", "of", "pf2", "tfport", "css", "goonsquad", "tfc", "hldm", "hl2dm", "dmc", "svencoop", "fortressforever", "quakelive", "portalcoop"];
+const steamGames = ["tf2", "tf2classic", "of", "pf2", "tfport", "css", "goonsquad", "tfc", "hldm", "hl2dm", "dmc", "ricochet", "svencoop", "fortressforever", "quakelive", "portalcoop"];
 
 // general variables
 const RESOURCES_URL = "https://resources.redchanit.xyz";
