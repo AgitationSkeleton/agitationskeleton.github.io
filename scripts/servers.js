@@ -253,6 +253,14 @@ const serverList = [
 		game: "buildandshoot",
 		overrideMap: "aceofspades",
 	},		
+	// armagetron
+	{
+		id: "armagetron",
+		name: "REDchanit.xyz | Retrocycles Deathmatch",
+		ip: "play.redchanit.xyz:4534",
+		game: "armagetron",
+		overrideMap: "The_Grid",
+	},		
 	// mumble
 	{
 		id: "mumble",
