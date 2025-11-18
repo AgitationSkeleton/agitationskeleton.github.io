@@ -239,7 +239,7 @@ const serverList = [
 	// minecraft
 	{
 		id: "minecraft",
-		name: "REDchanit.xyz | Minecraft 1.21.3",
+		name: "REDchanit.xyz | Minecraft",
 		ip: "play.redchanit.xyz:35565",
 		game: "minecraft",
 		overrideMap: "world",
@@ -256,7 +256,7 @@ const serverList = [
 	// armagetron
 	{
 		id: "armagetron",
-		name: "REDchanit.xyz | Retrocycles Deathmatch",
+		name: "REDchanit.xyz | Armagetron Deathmatch",
 		ip: "play.redchanit.xyz:4534",
 		game: "armagetron",
 		overrideMap: "The_Grid",
