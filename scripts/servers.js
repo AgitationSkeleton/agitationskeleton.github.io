@@ -113,6 +113,14 @@ const serverList = [
 		game: "tf2",
 		overrideGame: "tfport",
 	},
+	// tf2goldrush
+	{
+		id: "tf2goldrush",
+		name: "REDchanit.xyz | TF2: Goldrush",
+		ip: "play.redchanit.xyz:27008",
+		game: "tf2",
+		overrideGame: "tf2goldrush",
+	},	
 	// css
 	{
 		id: "css",
@@ -272,7 +280,7 @@ const serverList = [
 ];
 
 // list of Steam games, for direct connection
-const steamGames = ["tf2", "tf2classic", "of", "pf2", "tfport", "css", "goonsquad", "tfc", "hldm", "hl2dm", "dmc", "ricochet", "svencoop", "fortressforever", "quakelive", "portalcoop"];
+const steamGames = ["tf2", "tf2classic", "of", "pf2", "tfport", "css", "goonsquad", "tfc", "hldm", "hl2dm", "dmc", "ricochet", "svencoop", "fortressforever", "quakelive", "portalcoop", "tf2goldrush"];
 
 // general variables
 const RESOURCES_URL = "https://resources.redchanit.xyz";
