@@ -116,7 +116,7 @@ const serverList = [
 	// tf2goldrush
 	{
 		id: "tf2goldrush",
-		name: "REDchanit.xyz | TF2: Goldrush",
+		name: "REDchanit.xyz | TF2: Gold Rush",
 		ip: "play.redchanit.xyz:27008",
 		game: "tf2",
 		overrideGame: "tf2goldrush",
@@ -252,6 +252,14 @@ const serverList = [
 		game: "minecraft",
 		overrideMap: "world",
 	},
+	// minecraft beta
+	{
+		id: "minecraftbeta",
+		name: "REDchanit.xyz | Minecraft Beta",
+		ip: "play.redchanit.xyz:24566",
+		game: "minecraftbeta",
+		overrideMap: "redchanit",
+	},	
 	// ace of spades
 	{
 		id: "buildandshoot",
