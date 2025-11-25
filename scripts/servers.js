@@ -251,6 +251,7 @@ const serverList = [
 		ip: "play.redchanit.xyz:35565",
 		game: "minecraft",
 		overrideMap: "world",
+		dynmap: "http://play.redchanit.xyz:35568/",
 	},
 	// minecraft beta
 	{
@@ -259,6 +260,7 @@ const serverList = [
 		ip: "play.redchanit.xyz:24566",
 		game: "minecraftbeta",
 		overrideMap: "redchanit",
+		dynmap: "http://play.redchanit.xyz:8123/",
 	},	
 	// ace of spades
 	{
@@ -268,6 +270,7 @@ const serverList = [
 		ip: "play.redchanit.xyz:32886",
 		game: "buildandshoot",
 		overrideMap: "aceofspades",
+		dynmap: "http://play.redchanit.xyz:32886/",
 	},		
 	// armagetron
 	{
