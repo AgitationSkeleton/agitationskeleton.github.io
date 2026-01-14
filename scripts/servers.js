@@ -33,12 +33,14 @@ const serverList = [
 		name: "REDchanit.xyz | TF2 Vanilla",
 		ip: "play.redchanit.xyz:27664",
 		game: "tf2",
+		motd: "memefort_vanilla",
 	},
 	{
 		id: "tf2VanillaNoSniper",
 		name: "REDchanit.xyz | TF2 Trade Minecraft",
 		ip: "play.redchanit.xyz:27663",
 		game: "tf2",
+		motd: "memefort_trademc",
 	},
 	// of
 	{
@@ -261,7 +263,16 @@ const serverList = [
 		game: "minecraftbeta",
 		overrideMap: "redchanit",
 		dynmap: "http://play.redchanit.xyz:8123/",
-	},	
+	},
+	// minecraft classic
+	{
+		id: "minecraftclassic",
+		name: "REDchanit.xyz | Minecraft Classic",
+		ip: "play.redchanit.xyz:45566",
+		game: "minecraft",
+		overrideMap: "classicube",
+		dynmap: "http://play.redchanit.xyz:48123/",
+	},		
 	// ace of spades
 	{
 		id: "buildandshoot",
