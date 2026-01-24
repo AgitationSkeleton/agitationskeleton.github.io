@@ -272,7 +272,17 @@ const serverList = [
 		game: "minecraft",
 		overrideMap: "classicube",
 		dynmap: "http://play.redchanit.xyz:48123/",
-	},		
+	},
+	// hytale
+	{
+		id: "hytale",
+		name: "REDchanit.xyz | Hytale",
+		ip: "play.redchanit.xyz:5521",
+		game: "minecraft",
+		overrideMap: "hytale",
+		overrideGame: "hytale",
+		//dynmap: "http://play.redchanit.xyz:POOT_DYNMAP_HERE/",
+	},	
 	// ace of spades
 	{
 		id: "buildandshoot",
