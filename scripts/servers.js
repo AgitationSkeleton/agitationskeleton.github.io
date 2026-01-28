@@ -146,14 +146,14 @@ const serverList = [
 		//overrideGame: "goonsquad",
 	},	
 	// portalcoop
-	{
-		id: "portalcoop",
-		name: "REDchanit.xyz | Portal 1 Cooperative",
-		ip: "play.redchanit.xyz:15565",
-		game: "hl2dm",
-		overrideGame: "portalcoop",
-		//overrideMap: "portalcoop",
-	},
+	//{
+	//	id: "portalcoop",
+	//	name: "REDchanit.xyz | Portal 1 Cooperative",
+	//	ip: "play.redchanit.xyz:15565",
+	//	game: "hl2dm",
+	//	overrideGame: "portalcoop",
+	//	//overrideMap: "portalcoop",
+	//},
 	// tfc
 	{
 		id: "tfcFoldyBasement",
