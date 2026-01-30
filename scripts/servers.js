@@ -77,27 +77,41 @@ const serverList = [
 	},
 	// tf2classic
 	{
-		id: "tf2classicCustomWeapons",
-		name: "REDchanit.xyz | TF2C (Custom Weapons)",
+		id: "tf2c1",
+		name: "REDchanit.xyz | TF2C #1",
 		ip: "play.redchanit.xyz:27020",
 		game: "hl2dm",
 		overrideGame: "tf2classic",
-		motd: "tf2c_motd",
+		//motd: "tf2c_motd",
 	},
 	{
-		id: "tf2classic2fort",
-		name: "REDchanit.xyz | TF2C 2FORT 24/7 (Vanilla)",
+		id: "tf2c2",
+		name: "REDchanit.xyz | TF2C #2",
 		ip: "play.redchanit.xyz:27979",
 		game: "hl2dm",
 		overrideGame: "tf2classic",
 	},
 	{
-		id: "tf2classic2007",
-		name: "REDchanit.xyz | TF2C 2007 Simulator",
+		id: "tf2c3",
+		name: "REDchanit.xyz | TF2C #3",
 		ip: "play.redchanit.xyz:27980",
 		game: "hl2dm",
 		overrideGame: "tf2classic",
 		motd: "xperience",
+	},
+	{
+		id: "tf2c4",
+		name: "REDchanit.xyz | TF2C #4",
+		ip: "play.redchanit.xyz:27974",
+		game: "hl2dm",
+		overrideGame: "tf2classic",
+	},
+	{
+		id: "tf2c5",
+		name: "REDchanit.xyz | TF2C #5",
+		ip: "play.redchanit.xyz:15565",
+		game: "hl2dm",
+		overrideGame: "tf2classic",
 	},
 	// pf2
 	{
@@ -106,14 +120,6 @@ const serverList = [
 		ip: "play.redchanit.xyz:26335",
 		game: "hl2dm",
 		overrideGame: "pf2",
-	},
-	// tfport
-	{
-		id: "tfport",
-		name: "REDchanit.xyz | TF_Port 2007",
-		ip: "play.redchanit.xyz:27974",
-		game: "tf2",
-		overrideGame: "tfport",
 	},
 	// tf2goldrush
 	{
@@ -144,16 +150,7 @@ const serverList = [
 		ip: "play.redchanit.xyz:23555",
 		game: "hl2dm",
 		//overrideGame: "goonsquad",
-	},	
-	// portalcoop
-	//{
-	//	id: "portalcoop",
-	//	name: "REDchanit.xyz | Portal 1 Cooperative",
-	//	ip: "play.redchanit.xyz:15565",
-	//	game: "hl2dm",
-	//	overrideGame: "portalcoop",
-	//	//overrideMap: "portalcoop",
-	//},
+	},
 	// tfc
 	{
 		id: "tfcFoldyBasement",
