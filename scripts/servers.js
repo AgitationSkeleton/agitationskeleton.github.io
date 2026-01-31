@@ -97,7 +97,7 @@ const serverList = [
 		ip: "play.redchanit.xyz:27980",
 		game: "hl2dm",
 		overrideGame: "tf2classic",
-		motd: "xperience",
+		//motd: "xperience",
 	},
 	{
 		id: "tf2c4",
