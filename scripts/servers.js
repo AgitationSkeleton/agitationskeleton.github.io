@@ -78,7 +78,7 @@ const serverList = [
 	// tf2classic
 	{
 		id: "tf2c1",
-		name: "REDchanit.xyz | TF2C #1",
+		name: "REDchanit.xyz | TF2C #1 - All Maps",
 		ip: "play.redchanit.xyz:27020",
 		game: "hl2dm",
 		overrideGame: "tf2classic",
@@ -86,14 +86,14 @@ const serverList = [
 	},
 	{
 		id: "tf2c2",
-		name: "REDchanit.xyz | TF2C #2",
+		name: "REDchanit.xyz | TF2C #2 - 4Team Maps",
 		ip: "play.redchanit.xyz:27979",
 		game: "hl2dm",
 		overrideGame: "tf2classic",
 	},
 	{
 		id: "tf2c3",
-		name: "REDchanit.xyz | TF2C #3",
+		name: "REDchanit.xyz | TF2C #3 - VIP Escort Maps",
 		ip: "play.redchanit.xyz:27980",
 		game: "hl2dm",
 		overrideGame: "tf2classic",
@@ -101,14 +101,14 @@ const serverList = [
 	},
 	{
 		id: "tf2c4",
-		name: "REDchanit.xyz | TF2C #4",
+		name: "REDchanit.xyz | TF2C #4 - Arena Maps",
 		ip: "play.redchanit.xyz:27974",
 		game: "hl2dm",
 		overrideGame: "tf2classic",
 	},
 	{
 		id: "tf2c5",
-		name: "REDchanit.xyz | TF2C #5",
+		name: "REDchanit.xyz | TF2C #5 - Vanilla Gameplay",
 		ip: "play.redchanit.xyz:15565",
 		game: "hl2dm",
 		overrideGame: "tf2classic",
