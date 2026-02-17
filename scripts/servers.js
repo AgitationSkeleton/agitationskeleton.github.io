@@ -268,7 +268,7 @@ const serverList = [
 		ip: "play.redchanit.xyz:45566",
 		game: "minecraft",
 		overrideMap: "classicube",
-		dynmap: "http://play.redchanit.xyz:48123/",
+		//dynmap: "http://play.redchanit.xyz:48123/",
 	},
 	// hytale
 	{
