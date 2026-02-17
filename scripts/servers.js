@@ -297,15 +297,15 @@ const serverList = [
 		ip: "play.redchanit.xyz:4534",
 		game: "armagetron",
 		overrideMap: "The_Grid",
-	},		
-	// mumble
-	{
-		id: "mumble",
-		name: "REDchanit.xyz | Murmur Bunker",
-		ip: "play.redchanit.xyz:64738",
-		game: "mumbleping",
-		overrideMap: "mumble",
 	}	
+	//// mumble
+	//{
+	//	id: "mumble",
+	//	name: "REDchanit.xyz | Murmur Bunker",
+	//	ip: "play.redchanit.xyz:64738",
+	//	game: "mumbleping",
+	//	overrideMap: "mumble",
+	//}	
 ];
 
 // list of Steam games, for direct connection
