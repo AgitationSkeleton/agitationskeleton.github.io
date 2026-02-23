@@ -329,7 +329,7 @@ preloadImages(
 	`${RESOURCES_URL}/status/offline.png`,
 	`${RESOURCES_URL}/status/online.png`,
 	`${RESOURCES_URL}/games/unknown.png`,
-	`${RESOURCES_URL}/maps/unknown.png`,
+	`${RESOURCES_URL}/maps/unknown_old.png`,
 );
 
 // fetch base IP
