@@ -86,14 +86,14 @@ const serverList = [
 	},
 	{
 		id: "tf2c2",
-		name: "REDchanit.xyz | TF2C #2 - 4Team Maps",
+		name: "REDchanit.xyz | TF2C #2 - Merc CTF / Domination",
 		ip: "play.redchanit.xyz:27979",
 		game: "hl2dm",
 		overrideGame: "tf2classic",
 	},
 	{
 		id: "tf2c3",
-		name: "REDchanit.xyz | TF2C #3 - VIP Escort Maps",
+		name: "REDchanit.xyz | TF2C #3 - Zombie Infection Mode",
 		ip: "play.redchanit.xyz:27980",
 		game: "hl2dm",
 		overrideGame: "tf2classic",
@@ -101,7 +101,7 @@ const serverList = [
 	},
 	{
 		id: "tf2c4",
-		name: "REDchanit.xyz | TF2C #4 - Arena Maps",
+		name: "REDchanit.xyz | TF2C #4 - Deathmatch Mode",
 		ip: "play.redchanit.xyz:27974",
 		game: "hl2dm",
 		overrideGame: "tf2classic",
@@ -110,6 +110,13 @@ const serverList = [
 		id: "tf2c5",
 		name: "REDchanit.xyz | TF2C #5 - Vanilla Gameplay",
 		ip: "play.redchanit.xyz:15565",
+		game: "hl2dm",
+		overrideGame: "tf2classic",
+	},
+	{
+		id: "tf2c6",
+		name: "REDchanit.xyz | TF2C #6 - Deathmatch Reclassified Mix",
+		ip: "play.redchanit.xyz:5520",
 		game: "hl2dm",
 		overrideGame: "tf2classic",
 	},
@@ -271,15 +278,15 @@ const serverList = [
 		//dynmap: "http://play.redchanit.xyz:48123/",
 	},
 	// hytale
-	{
-		id: "hytale",
-		name: "REDchanit.xyz | Hytale",
-		ip: "play.redchanit.xyz:5521",
-		game: "minecraft",
-		overrideMap: "hytale",
-		overrideGame: "hytale",
-		//dynmap: "http://play.redchanit.xyz:POOT_DYNMAP_HERE/",
-	},	
+	//{
+	//	id: "hytale",
+	//	name: "REDchanit.xyz | Hytale",
+	//	ip: "play.redchanit.xyz:5521",
+	//	game: "minecraft",
+	//	overrideMap: "hytale",
+	//	overrideGame: "hytale",
+	//	//dynmap: "http://play.redchanit.xyz:POOT_DYNMAP_HERE/",
+	//},	
 	// ace of spades
 	{
 		id: "buildandshoot",
